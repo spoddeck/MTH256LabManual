@@ -5,7 +5,7 @@
   <exercises xml:id="lab-1_1">
     <!-- lab 1 - Understanding Differential Equations -->
     <exercisegroup xml:id="exercisegroup-lab-understanding_differential_solutions">
-      <title>Lab - Understanding Differential Equations</title>
+      <title>Lab - Awesome Understanding Differential Equations</title>
       <!--<introduction>
         <p>
           Consider the differential equation <m>\frac{dy}{dx} = y^2 - 4</m>.

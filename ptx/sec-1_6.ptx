@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-1_6">
+  <title>Existence and Uniqueness of Solutions</title>
+
+  <exercises xml:id="exercises-1_6">
+    <!-- exercise 5 - Uniqueness and Existence -->
+    <exercise>
+      <title>Lab - Understanding Uniqueness and Existence</title>
+      <statement>
+        <p>
+          Why and how does the formal definition of Uniqueness and Existence work?  I’m not asking for a formal proof here – what are the ideas behind the proof?  Why does the continuity of the differential function, and of the partial derivative with respect to <m>y</m>, mean the differential equation has one and only one solution for a given initial condition?  (Hint: Talk about continuity here.  If we have some function <m>f(x, y, y’)</m> that’s not continuous for some inputs, what does that mean?  Why could that give something that’s not unique, or that doesn’t exist?)
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+        </p>
+      </answer>
+    </exercise>
+
+  </exercises>
+
+</section>

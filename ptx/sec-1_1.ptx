@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-1_1">
+  <title>Modeling with Differential Equations</title>
+
+  <exercises xml:id="lab-1_1">
+    <!-- lab 1 - Understanding Differential Equations -->
+    <exercisegroup xml:id="exercisegroup-lab-understanding_differential_solutions">
+      <title>Lab - Understanding Differential Equations</title>
+      <!--<introduction>
+        <p>
+          Consider the differential equation <m>\frac{dy}{dx} = y^2 - 4</m>.
+        </p>
+      </introduction>-->
+      <!-- lab 1, part a from Understanding Differential Equations -->
+      <exercise>
+        <statement>
+          <p>
+            What is a function?  Find a formal definition of function (as a mathematical object), and then unpack that definition, explaining it in your own words.  Make sure to attend to the important details!
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- lab 1, part b from Understanding Differential Equations -->
+      <exercise>
+        <statement>
+          <p>
+            What is a solution to a differential equation?  Be specific.  Also explain why a solution is not the kind of algebraic solutions we’re used to (<m>x = 3</m>, for example) and why we need some of the mechanisms from problem 1 of this question.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+
+    <!-- lab 2 - Verifying and Graphing Solutions -->
+    <exercisegroup xml:id="exercisegroup-solutions_of_differential_equation">
+      <title>Lab - Practice - Solutions to Differential Equations</title>
+      <introduction>
+        <p>
+          Consider the differential equation <me>y'' + 4y = 0</me>.
+        </p>
+      </introduction>
+      <!-- lab 2, part a from Verifying and Graphing Solutions -->
+      <exercise>
+        <statement>
+          <p>
+            Verify that <m>y(t) = c_1 \cos(2t) + c_2 \sin(2t)</m> is a solution to this equation.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- lab 2, part b from Verifying and Graphing Solutions -->
+      <exercise>
+        <statement>
+          <p>
+            Sketch solution curves for <m>c_1 = 1</m> and <m>c_2 = 1</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- lab 2, part c from Verifying and Graphing Solutions -->
+      <exercise>
+        <statement>
+          <p>
+            If <m>y(0) = 1</m>, and <m>y’(0) = -2</m>, find <m>c_1</m> and <m>c_2</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+
+    <!-- lab 3 - Modeling Populations -->
+    <exercisegroup xml:id="exercisegroup-modelin_populations">
+      <title>Lab - Application - Population</title>
+      <introduction>
+        <p>
+          The growth of a population of fresh-water Gars in a large lake (where resources and space are effectively unlimited) can be modeled by the differential equation <me>\frac{dP}{dt} = kP</me>.
+        </p>
+      </introduction>
+      <!-- lab 3, part a from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            Unpack this equation in words.  What do all of the different letters mean?  What are their units?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- lab 3, part b from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            Classify the growth of the population for different values of <m>k</m>.  Attend to values of <m>k</m> less than zero, zero, between zero and one, and greater than one.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- lab 3, part c from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            If we allow fishing of the Gars at a constant rate, what does that do to our equation – what differential equation can we use to model this?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- lab 3, part d from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            If we allow fishing of the Gars at a rate proportional to the population, what differential equation can we use to model this?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- lab 3, part e from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            Assume that <m>N</m> is the maximum number of Gars that the lake can contain (the carrying capacity of the lake).  What differential equation can we use to model this?  (HINT: think about what happens when <m>P = N</m>, <m>P \gt N</m>, <m>P \lt N</m>).
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+
+    <!-- supplement 1 - Understanding Differential Equations -->
+    <exercisegroup xml:id="exercisegroup-supplement-understanding_differential_solutions">
+      <title>Supplement - Understanding Differential Equations</title>
+      <!--<introduction>
+        <p>
+          Consider the differential equation <m>\frac{dy}{dx} = y^2 - 4</m>.
+        </p>
+      </introduction>-->
+      <!-- supplement 1, part a from Understanding Differential Equations -->
+      <exercise>
+        <statement>
+          <p>
+            What is the difference between <m>x=3</m> and <m>f(x)=5x+7</m>?
+            Explain it in your own words.  Make sure to attend to the important details!
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- supplement 1, part b from Understanding Differential Equations -->
+      <exercise>
+        <statement>
+          <p>
+            What is a solution to a differential equation?  Be specific.  Also explain why a solution is not the kind of algebraic solutions we’re used to (<m>x = 3</m>, for example) and why we need some of the mechanisms from problem 1 of this question.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+
+    <!-- supplement 2 - Verifying and Graphing Solutions -->
+    <exercisegroup xml:id="exercisegroup-solutions_of_differential_equation">
+      <title>Lab - Practice - Solutions to Differential Equations</title>
+      <introduction>
+        <p>
+          Consider the differential equation <me>y'' + 4y = 0</me>.
+        </p>
+      </introduction>
+      <!-- supplement 2, part a from Verifying and Graphing Solutions -->
+      <exercise>
+        <statement>
+          <p>
+            Verify that <m>y(t) = c_1 \cos(2t) + c_2 \sin(2t)</m> is a solution to this equation.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- supplement 2, part b from Verifying and Graphing Solutions -->
+      <exercise>
+        <statement>
+          <p>
+            Sketch solution curves for <m>c_1 = 1</m> and <m>c_2 = 1</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- supplement 2, part c from Verifying and Graphing Solutions -->
+      <exercise>
+        <statement>
+          <p>
+            If <m>y(0) = 1</m>, and <m>y’(0) = -2</m>, find <m>c_1</m> and <m>c_2</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+
+    <!-- supplement 3 - Modeling Populations -->
+    <exercisegroup xml:id="exercisegroup-modelin_populations">
+      <title>Lab - Application - Population</title>
+      <introduction>
+        <p>
+          The growth of a population of fresh-water Gars in a large lake (where resources and space are effectively unlimited) can be modeled by the differential equation <me>\frac{dP}{dt} = kP</me>.
+        </p>
+      </introduction>
+      <!-- supplement 3, part a from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            Unpack this equation in words.  What do all of the different letters mean?  What are their units?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- supplement 3, part b from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            Classify the growth of the population for different values of <m>k</m>.  Attend to values of <m>k</m> less than zero, zero, between zero and one, and greater than one.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- supplement 3, part c from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            If we allow fishing of the Gars at a constant rate, what does that do to our equation – what differential equation can we use to model this?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- supplement 3, part d from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            If we allow fishing of the Gars at a rate proportional to the population, what differential equation can we use to model this?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- supplement 3, part e from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            Assume that <m>N</m> is the maximum number of Gars that the lake can contain (the carrying capacity of the lake).  What differential equation can we use to model this?  (HINT: think about what happens when <m>P = N</m>, <m>P \gt N</m>, <m>P \lt N</m>).
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+
+  </exercises>
+
+</section>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-1_3">
+  <title>Geometric and Quantitative Analysis</title>
+
+  <exercises xml:id="exercises-1_3">
+    <!-- exercise 1 - Understanding Differential Equations -->
+    <exercisegroup xml:id="exercisegroup-understanding_differential_equations">
+      <title>Lab - Understanding Differential Equations</title>
+      <introduction>
+        <p>
+          Consider the differential equation <me>\frac{dy}{dx} = y^2 - 4</me>.
+        </p>
+      </introduction>
+      <!-- exercise 1, part a from Understanding Differential Equations -->
+      <exercise>
+        <statement>
+          <p>
+            What are the equilibria solutions?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 1, part b from Understanding Differential Equations -->
+      <exercise>
+        <statement>
+          <p>
+            Make a direction field for this differential equation by hand.  Assume <m>t</m> is positive, and use an appropriate scale to show important features.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 1, part c from Understanding Differential Equations -->
+      <exercise>
+        <statement>
+          <p>
+            Sketch several solutions <m>y(x)</m> that characterize the direction field.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 1, part d from Understanding Differential Equations -->
+      <exercise>
+        <statement>
+          <p>
+            Identify the stability of all equilibria.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 1, part e from Understanding Differential Equations -->
+      <exercise>
+        <statement>
+          <p>
+            If <m>y(0) = 0</m>, what is the limit of <m>y</m> as <m>x</m> goes to infinity?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+
+    <!-- exercise 2 - Modeling Populations -->
+    <exercisegroup xml:id="exercisegroup-modeling_populations">
+      <title>Lab - Application - Population</title>
+      <introduction>
+        <p>
+          A population of Gar (a type of fish) in Lake Dave has a constant birthrate of 6 fish per hundred every month.  There is also a natural death rate of 5% per month, and 100 fish per month are removed by people fishing the lake.
+        </p>
+      </introduction>
+      <!-- exercise 2, part a from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            Model the Lake Dave Gar population with a differential equation
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 2, part b from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            Plot the phase line of this population and its equilibria
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 2, part c from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            Classify the equilibria as sinks, sources, or nodes
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 2, part d from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            Solve with an initial condition of 11,000 Gar in the lake
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 2, part e from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            Solve with an initial population of 9000 fish.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 2, part f from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            Are either of those rates of fishing sustainable?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+
+    <!-- exercise 3 - Modeling Falling Objects -->
+    <exercise>
+      <title>Lab - Application - Falling Object</title>
+      <statement>
+        <p>
+          A canister of presents falls from Santa’s sled, which is hovering 500 meters above the ground.  Santa’s elves design the present canisters to withstand impact velocities of up to 125 m/sec.  Given that gravity accelerates the canister by 9.8 m/sec<m>^2</m>, does the canister burst?  Justify your answer.
+        </p>
+      </statement>
+      <answer>
+        <p>
+          <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+        </p>
+      </answer>
+    </exercise>
+
+  </exercises>
+
+</section>

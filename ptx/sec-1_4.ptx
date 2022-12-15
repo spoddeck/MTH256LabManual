@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-1_4">
+  <title>Analyzing Equations Numerically</title>
+
+  <exercises xml:id="exercises-1_4">
+    <!-- exercise 1 - Euler's Method -->
+    <exercisegroup xml:id="exercisegroup-euler_method">
+      <title>Lab - Practice - Euler's Method</title>
+      <!--<introduction>
+        <p>
+          Consider the differential equation <me>\frac{dy}{dx} = y^2 - 4</me>.
+        </p>
+      </introduction>-->
+      <!-- exercise 1, part a from Euler's Method -->
+      <exercise>
+        <statement>
+          <p>
+            Solve <me>y’ = y – 2t \text{, } y(0) = 1</me> analytically, and use this to find <m>y(1)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 2, part b from Euler's Method -->
+      <exercise>
+        <statement>
+          <p>
+            Use Euler’s method with a step-size of 0.2 to find <m>y(1)</m> in the above equation.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+
+  </exercises>
+
+</section>

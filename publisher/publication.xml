@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<publication>
+    <source>
+    </source>
+    <!-- HTML-Specific Options -->
+    <html>
+        <index-page ref="supplement111-112"/>
+        <knowl example="no"/>
+    </html>
+    <!-- PDF-Specific Options -->
+    <latex print="no" sides="one">
+    </latex>
+    <epub cover="external/images/Cover_b.png"/>
+</publication>

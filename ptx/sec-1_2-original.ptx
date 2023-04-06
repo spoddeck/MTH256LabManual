@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-1_2-original">
+  <title>Separable Differential Equations - original</title>
+
+  <exercises xml:id="exercises-1_2">
+
+    <!-- exercise 1 - Modeling Newton’s Law of Cooling -->
+    <exercisegroup xml:id="exercisegroup-cooling">
+      <title>Lab - Application - Newton’s Law of Cooling</title>
+      <!--<introduction>
+        <p>
+          Consider the differential equation <me>\frac{dy}{dx} = y^2 - 4</me>.
+        </p>
+      </introduction>-->
+      <!-- exercise 1, part a from Modeling Newton’s Law of Cooling -->
+      <exercise>
+        <statement>
+          <p>
+            I make a large pot of Peppermint Tea to serve to my Fancy Tea Party.  I make sure the water is at 90 degrees Celsius when I add it to the leaves, and then serve it to my Fancy guests after steeping for 30 minutes.  The room is the fanciest temperature, of course; 20 degrees Celsius.  When I finally finish my initial comments another 30 minutes after serving, I find that my tea has cooled to 40 degrees Celsius.  What was the temperature of the tea when I served it?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 2, part b from Modeling Newton’s Law of Cooling -->
+      <exercise>
+        <statement>
+          <p>
+            Do we need to use a differential equation for the problem above (a cooling problem using Newton’s Law of Cooling)?  Solve this problem algebraically – without using calculus.  Be clear about the assumptions you make!
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+
+  </exercises>
+
+</section>

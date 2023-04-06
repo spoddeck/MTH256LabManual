@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-1_7-original">
+  <title>Bifurcations - original</title>
+
+  <exercises xml:id="exercises-1_7">
+    <!-- exercise 6 - Modeling Populations -->
+    <exercisegroup xml:id="exercisegroup-modeling_puffins_again">
+      <title>Lab - Application - Population</title>
+      <introduction>
+        <p>
+          The growth of my population of Puffins (in hundreds of Puffins) can be modeled with the following: <me>P’ = P(P – 4) + k</me>
+        </p>
+      </introduction>
+      <!-- exercise 6, part a from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            What are the equilibrium solutions for my population of Puffins?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 6, part b from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            What do values of <m>k</m> represent in terms of this situation?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 6, part c from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            If <m>k = 0</m>, are there any equilibrium solutions?  What happens with different initial populations?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <!-- exercise 6, part d from Modeling Populations -->
+      <exercise>
+        <statement>
+          <p>
+            What happens as <m>k</m> ranges from -5 to 5, in terms of equilibrium solutions?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+    </exercisegroup>
+
+  </exercises>
+
+</section>

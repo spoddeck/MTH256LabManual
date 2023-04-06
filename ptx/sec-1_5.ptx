@@ -3,19 +3,25 @@
   <title>First-Order Linear Equations</title>
 
   <exercises xml:id="exercises-1_5">
-    <!-- exercises 3 and 4 - Modeling Populations -->
-    <exercisegroup xml:id="exercisegroup-lake_fidget">
-      <title>Lab - Application - Population</title>
-      <!--<introduction>
+    <exercisegroup xml:id="exercisegroup-Supplemental_HW_Problems-1_5">
+      <title>Supplemental HW Problems</title>
+      <introduction>
         <p>
-          Consider the differential equation <me>\frac{dy}{dx} = y^2 - 4</me>.
+          Note: these are the same basic problems as the ones for <xref ref="sec-1_4"/>.  There we used numerical approximation techniques; here we will solve exactly. Once you find the solution compare with the answers you got from the last section!
         </p>
-      </introduction>-->
-      <!-- exercise 3, part a from Modeling Populations -->
+      </introduction>
       <exercise>
         <statement>
           <p>
-            Lake Fidget is horribly polluted with agricultural run-off.  The lake contains 2600 cubic km of water, and has an inflow and outflow of 150 km<m>^3</m> per year.  In 2020 new legislation went into effect reducing the amount of agricultural pollution to zero, but it will take time to flush the current contaminants from Lake Fidget.  If <m>x(t)</m> is the amount of pollutant in tons per cubic km, And <m>x(0) = P</m>, write a differential equation that models the amount of pollutant in Lake Fidget, and find how long it takes for the pollution level to drop to half of 2020 levels.
+            A gold mining operation dumps its solvents in a holding pond.  The pond has an initial volume of <m>20,000</m> cubic meters of liquid, and each day a stream diverted into the pond delivers <m>1000</m> cubic meters of water.  Each day <m>1000</m> cubic meters of mixed waste water and solvents is pumped out for treatment.  However, solids carried in from the stream settle to the bottom of the pond, reducing its volume by <m>50</m> meters per day – so the pond will be full and need dredging after <m>400</m> days of operation.  Each day <m>5</m>kg of solvents enters the pond.
+          </p>
+          <p>
+            If <m>x(t)</m> gives the amount of solvent in the pond (in kilograms) on day <m>t</m>, then the derivative <m>x’(t)</m> gives the rate of change of solvent in the pond, and can be found as follows:
+            <me>\frac{dx}{dt} = rate_{in} - rate_{out}</me>.
+            The rate in is constant, at <m>5</m> (kg/day).  The rate out varies as more solvent enters the pond.  Given that <m>1000</m> liters of water leave the pond each day, and the concentration of solids leaving the pond is the total amount of solvent in the pond on day <m>t</m>, divided by the total amount of water in the pond on day <m>t</m>, we can find the amount of solids that leave the pond by multiplying the amount of water (in liters) by the concentration (in kg/liter).
+          </p>
+          <p>
+            Use an integrating factor to solve for <m>x(t)</m> explicitly, and use that formula to find <m>x(10)</m> and <m>x(200)</m>.
           </p>
         </statement>
         <answer>
@@ -24,52 +30,18 @@
           </p>
         </answer>
       </exercise>
-      <!-- exercise 4, part b from Modeling Populations -->
       <exercise>
         <statement>
           <p>
-            Given the pollution situation in Lake Fidget as above, now assume that the legislation reduces the agricultural to 10% of pre-2020 levels.  How long does it take under this situation for the pollution level to be halved?
+            I retire, and between some good investments and selling my Portland home to move to Arizona, I have a nest egg of <m>\$2.5</m> million saved up, in an account that earns a guaranteed <m>3.5\%</m> annual interest for as long as I maintain a balance.  My tarot reader tells me that I have exactly <m>35</m> years to live after retirement before my death.  If I withdraw <m>\$120,000</m> per year, will there be any money left for my kids to inherit?  Remember that if <m>P(t)</m> is the amount I have in savings, let <m>P’</m> be the amount coming in (which is <m>0.035P</m>) minus the amount going out (which is <m>120,000</m>).
           </p>
-        </statement>
-        <answer>
           <p>
-            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
-          </p>
-        </answer>
-      </exercise>
-    </exercisegroup>
-
-    <!-- exercises 7 and 8 - Modeling Snowstorms -->
-    <exercisegroup xml:id="exercisegroup-snowstorms">
-      <title>Lab - Application - Snowstorm</title>
-      <!--<introduction>
-        <p>
-          Consider the differential equation <me>\frac{dy}{dx} = y^2 - 4</me>.
-        </p>
-      </introduction>-->
-      <!-- exercise 7, part a from Modeling Snowstorms -->
-      <exercise>
-        <statement>
-          <p>
-            Early one morning it begins to snow at a constant rate.  At 7 am, a snowplow sets off to clear a road.  By 8am it had travelled 2 miles, but it took an additional 2 hours to go the next two hours.  Let <m>x(t)</m> be the distance travelled by the snow plow after <m>t</m> hours of travel, and <m>x(0) = 0</m> to make the math easier.  Also assume that the snowplow clears snow from the road at a constant rate (so goes slower as the snow gets deeper).  Perform the analysis to find the time at which it started snowing.
+            Find the differential equation for <m>P’(t)</m>, solve it with an integrating factor for <m>P(t)</m>, and then find <m>P(35)</m> to answer the question here.
           </p>
         </statement>
         <answer>
           <p>
             <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
-          </p>
-        </answer>
-      </exercise>
-      <!-- exercise 8, part b from Modeling Snowstorms -->
-      <exercise>
-        <statement>
-          <p>
-            During another snowstorm, the plow set off at 7 am as before.  This time it clears 4 miles by 8 am, and another 3 miles by 9 am.  What time did it start snowing under this scenario?
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
           </p>
         </answer>
       </exercise>

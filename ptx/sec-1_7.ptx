@@ -3,45 +3,17 @@
   <title>Bifurcations</title>
 
   <exercises xml:id="exercises-1_7">
-    <!-- exercise 6 - Modeling Populations -->
-    <exercisegroup xml:id="exercisegroup-modeling_puffins_again">
-      <title>Lab - Application - Population</title>
-      <introduction>
+    <exercisegroup xml:id="exercisegroup-Supplemental_HW_Problems-1_7">
+      <title>Supplemental HW Problems</title>
+      <!--<introduction>
         <p>
           The growth of my population of Puffins (in hundreds of Puffins) can be modeled with the following: <me>P’ = P(P – 4) + k</me>
         </p>
-      </introduction>
-      <!-- exercise 6, part a from Modeling Populations -->
+      </introduction>-->
       <exercise>
         <statement>
           <p>
-            What are the equilibrium solutions for my population of Puffins?
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
-          </p>
-        </answer>
-      </exercise>
-      <!-- exercise 6, part b from Modeling Populations -->
-      <exercise>
-        <statement>
-          <p>
-            What do values of <m>k</m> represent in terms of this situation?
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
-          </p>
-        </answer>
-      </exercise>
-      <!-- exercise 6, part c from Modeling Populations -->
-      <exercise>
-        <statement>
-          <p>
-            If <m>k = 0</m>, are there any equilibrium solutions?  What happens with different initial populations?
+            Consider the differential equation <me>\frac{dx}{dt} = x^2 + a</me>.  Sketch phase lines for different values of <m>a: a = -4, a = -1, a = 0, a = 1</m>.  What’s the bifurcation point for this differential equation?
           </p>
         </statement>
         <answer>
@@ -50,16 +22,50 @@
           </p>
         </answer>
       </exercise>
-      <!-- exercise 6, part d from Modeling Populations -->
       <exercise>
         <statement>
           <p>
-            What happens as <m>k</m> ranges from -5 to 5, in terms of equilibrium solutions?
+            Given the ODE <me>x’ = 0.5x^2 + bx + 8</me>, find the two bifurcation points.  If we find these values as <m>p</m> and <m>q</m>, where <m>p &lt; q</m>, discuss the equilibria for <m>b &lt; p, b = p, p &lt; b &lt; q, b = q</m>, and <m>b &gt; q</m>.  By ‘discuss’ here we mean how many equilibria are there for given values of <m>b</m>.
           </p>
         </statement>
         <answer>
           <p>
-            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Consider the ODE <me>y’ = (y-5)(11-y) - a</me>.  We could also write this as <me>y’ = -y^2 + 16y - 55 - a</me>.
+          </p>
+          <ol>
+            <li><p>Sketch a phase line for <m>a = 0</m>.  What are the equilibrium points here?</p></li>
+            <li><p>Sketch phase lines for <m>a = 12, 10, 9, 8, 5, 0, -7, -27, -40, -55</m>, and <m>-72</m>.  It might be best to use technology, like Desmos, to help with this.  What is the bifurcation point here?</p></li>
+            <li><p>Generate a bifurcation diagram: use <m>a</m> as the horizontal axis value, and <m>y</m> the vertical.  For the given values of <m>a</m> in part (b) above draw phase lines, with dots at the <m>y</m>-values that give equilibria over each different <m>a</m> value.</p></li>
+          </ol>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Use the differential equation above, and assume that <m>y(t)</m> is the number of velociraptors in my theme park (in tens) during month <m>t</m>.  Also assume <m>a</m> is the number of velociraptors I harvest each month (so negative values indicate that I am purchasing more velociraptors to add to my herd).
+          </p>
+          <ol>
+            <li><p>Assume I start with <m>40</m> velociraptors, and do no harvesting.  Do I expect my herd to grow, remain stable, or vanish over time?</p></li>
+            <li><p>Answer the same question above, but starting with <m>0, 50, 75, 100</m>, and<m>120</m> velociraptors.</p></li>
+            <li><p>Answer the same questions above, but now I harvest <m>50</m> velociraptors each month.</p></li>
+            <li><p>What is the maximum number of velociraptors I can harvest each month, if I want to continue harvesting that amount indefinitely?  (Hint – this question is about the bifurcation point).  How does the initial number of velociraptors I have enter into this?</p></li>
+          </ol>
+        </statement>
+        <answer>
+          <p>
+            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
           </p>
         </answer>
       </exercise>

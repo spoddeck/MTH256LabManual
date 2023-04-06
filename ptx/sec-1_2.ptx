@@ -3,38 +3,142 @@
   <title>Separable Differential Equations</title>
 
   <exercises xml:id="exercises-1_2">
-
-    <!-- exercise 1 - Modeling Newton’s Law of Cooling -->
-    <exercisegroup xml:id="exercisegroup-cooling">
-      <title>Lab - Application - Newton’s Law of Cooling</title>
+    <exercisegroup xml:id="exercisegroup-Supplemental_HW_Problems-1_2">
+      <title>Supplemental HW Problems</title>
       <!--<introduction>
         <p>
           Consider the differential equation <me>\frac{dy}{dx} = y^2 - 4</me>.
         </p>
       </introduction>-->
-      <!-- exercise 1, part a from Modeling Newton’s Law of Cooling -->
       <exercise>
         <statement>
           <p>
-            I make a large pot of Peppermint Tea to serve to my Fancy Tea Party.  I make sure the water is at 90 degrees Celsius when I add it to the leaves, and then serve it to my Fancy guests after steeping for 30 minutes.  The room is the fanciest temperature, of course; 20 degrees Celsius.  When I finally finish my initial comments another 30 minutes after serving, I find that my tea has cooled to 40 degrees Celsius.  What was the temperature of the tea when I served it?
+            I make a pot of hot coffee, and take it outside to cool.  The coffee’s temperature is initially <m>100</m> degrees Celsius, and the outside temperature is <m>10</m> degrees C.  After <m>5</m> minutes, my temperature gauge says the coffee is <m>85</m> degrees C.  If I want my coffee to cool to a delightful <m>40</m> degrees C, how much more time do I need to leave it outside?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Now instead of taking the pot of coffee outside I put it in my freezer at <m>-5</m> degrees Celsius.  Assume the same constant of proportionality as in the problem above.  How long until the coffee is <m>40</m> degrees now?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            My sample of Pylorium Alabastericum (a type of bacteria) doubles in weight every ten hours.  Assume the sample is small enough so there’s enough food and space for the colony – how long will it take to grow from <m>1</m> gram to <m>3.5</m> grams?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Carbon-14 is used to date some organic artifacts, because once the parent material dies it stops taking in Carbon-14, and this slightly radioactive material begins to decay.  Carbon-14 has a half-life of approximately <m>5700</m> years (that’s how long it takes half of the Carbon-14 to become a more stable isotope of Carbon).  If a fragment of jawbone contains <m>1.5\%</m> of the expected amount of Carbon-14, how long ago did the animal live?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            I find a library book that my great-great-grandmother borrowed from the economics library, and forgot to return.  On the library tag it tells me that the fine will be <m>10</m> cents, and that the fine will grow exponentially at a <m>10\%</m> annual rate, compounded continuously.  If the book is returned now, <m>120</m> years later, what fine can I expect to be charged?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            I put my roast in the oven.  It’s initially at <m>70</m> degrees Fahrenheit, room temperature, and I put in a <m>300</m> degree oven.  After half an hour I see that the roast is heated to an internal temperature of <m>100</m> degrees.  How long will it take to reach <m>165</m> degrees Fahrenheit?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Now I take my roast out and let it rest.  If it sits for forty mintues while I make the vegetables and salad, what will the internal temperature be when I serve it?  Assume the same constant as you found in the problem above.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            I set up a college fund for my daughter when she’s born.  I put <m>\$100,000</m> in it as an initial investment, invested at a stable <m>3\%</m> annual interest (compounded continuously).  Additionally, I add <m>\$10,000</m> each year on her birthday.  After <m>18</m> years, how much is in the account?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            I want to make a batch of nail polish remover containing <m>40\%</m> acetone.  I have a vat of <m>1000</m> liters of weak acetone in solution, currently at <m>10\%</m>.  I pump in a strong solvent mixture with <m>75\%</m> acetone, at a rate of <m>10</m> liters per minute, and let the well-mixed solution drain out at the same rate.  As soon as the acetone in my vat reaches a <m>40\%</m> concentration, I stop this process.  What sized waste container do I need to hold the quantity of solution that drains out?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            One winter morning snow begins to fall in my rural community at a constant rate.  I wake up and get in my plow to clear my road, setting off at <m>8</m>am, and after one hour I have cleared <m>2</m> miles of road.  It takes me two more hours to clear the next two miles, as the snow keeps falling.  Assume my plow clears snow at a constant rate of volume over time, and that if <m>x(t)</m> is the distance my plow is from the start at time t, <m>x’(t) = k/t</m> for some constant <m>k</m>.  What time did it start snowing?
+          </p>
+        </statement>
+        <answer>
+          <p>
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
+          </p>
+        </answer>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            The next week it starts snowing again, at possibly a different rate from last week.  Once again I set off at <m>8</m>am, and travel <m></m> miles by <m>9</m>am, and an additional <m>3</m> miles an hour later.  What time did it start to snow this week?
           </p>
         </statement>
         <answer>
           <p>
             <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
-          </p>
-        </answer>
-      </exercise>
-      <!-- exercise 2, part b from Modeling Newton’s Law of Cooling -->
-      <exercise>
-        <statement>
-          <p>
-            Do we need to use a differential equation for the problem above (a cooling problem using Newton’s Law of Cooling)?  Solve this problem algebraically – without using calculus.  Be clear about the assumptions you make!
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
           </p>
         </answer>
       </exercise>

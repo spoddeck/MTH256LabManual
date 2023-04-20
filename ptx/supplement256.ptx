@@ -4,21 +4,25 @@
   <xi:include href="./docinfo.ptx"/>
 
   <book xml:id="supplement256">
-    <title>MTH 256 Supplement</title>
+    <title>MTH 256 Supplement to Judson's "The Ordinary Differential Equations Project"</title>
     <frontmatter>
       <titlepage>
         <author>
-          <personname>Mathematics Faculty</personname>
+          <personname>David Froemke</personname>
+          <institution>Portland Community College</institution>
+        </author>
+        <author>
+          <personname>Heiko Spoddeck</personname>
           <institution>Portland Community College</institution>
         </author>
 
-        <editor>
-          <personname>David Froemcke</personname>
+        <!-- <editor>
+          <personname>David Froemke</personname>
         </editor>
 
         <editor>
           <personname>Heiko Spoddeck</personname>
-        </editor>
+        </editor> -->
 
         <date><today/></date>
       </titlepage>

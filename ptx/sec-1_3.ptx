@@ -13,7 +13,7 @@
       <exercise>
         <statement>
           <p>
-            My koi pond contains a population of fish that grows over time.  I find that the growth rate of my fish is proportional to the product of how many fish are currently in my pond, and the difference of the number of fish and <m>200</m>.  If the growth constant of my koi is <m>0.005</m>, that gives the following differential equation for the fish growth:
+            My koi pond contains a population of fish that grows over time.  I find that the growth rate of my fish is proportional to the product of how many fish are currently in my pond, and the difference between the number of fish and <m>200</m>.  If the growth constant of my koi is <m>0.005</m>, that gives the following differential equation for the fish growth:
           </p>
           <p>
             <me>P’ = 0.005P(200-P)</me>
@@ -22,8 +22,8 @@
             Where <m>P(t)</m> is the population of fish in my pond during month <m>t</m>.
           </p>
           <ol>
-            <li><p>If I start with a population of <m>40</m> fish, so I expect my population of fish to grow, shrink, or be stable?</p></li>
-            <li><p>Answer the same question above for the following initial amounts of fish:  <m>10, 100. 180, 200, 250, 1000</m>?</p></li>
+            <li><p>If I start with a population of <m>40</m> fish, do I expect my population of fish to grow, shrink, or be stable?</p></li>
+            <li><p>Answer the same question above for the following initial amounts of fish:  <m>10, 100, 180, 200, 250, 1000</m>?</p></li>
             <li><p>Over time, what is the long-term amount of fish I expect to have in my pond?</p></li>
           </ol>
         </statement>
@@ -90,7 +90,7 @@
             <me>P’ = 0.008P^2(P-200)(100-P)</me>
           </p>
           <p>
-            Are there any initial conditions under this new model that leads to extinction (<m>0</m> fish, over time)?  The leads to doomsday (infinite fish, over time)?  That leads to stability?  Identify those conditions, and what the stability solutions (the amount of fish the pond tends to over time) if any of those exist.
+            Are there any initial conditions under this new model that lead to extinction (<m>0</m> fish, over time)?  That lead to doomsday (infinite fish, over time)?  That lead to stability?  Identify those conditions, and what the stability solutions are (the amount of fish the pond tends to over time) if any of those exist.
           </p>
         </statement>
         <answer>
@@ -102,13 +102,13 @@
       <exercise>
         <statement>
           <p>
-            Finally, I get a new set of pumps and filters for my pond.  NOW my model is:
+            Finally, I get a new set of pumps and filters for my pond.  <em>Now</em>, my model is:
           </p>
           <p>
             <me>P’ = 0.005P(P-200)(P-100)</me>
           </p>
           <p>
-            Given this model perform the same analysis as the problem above.
+            Given this model, perform the same analysis as in the problem above.
           </p>
         </statement>
         <answer>

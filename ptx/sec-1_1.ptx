@@ -21,6 +21,11 @@
             <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
           </p>
         </answer>
+        <solution>
+          <p>
+            I'm a solution :)
+          </p>
+        </solution>
       </exercise>
       <exercise>
         <statement>
@@ -41,7 +46,7 @@
           </p>
           <ol>
             <li><p>Verify that <m>y(t) = c_1 \cos(2t) + c_2 \sin(2t)</m> is a solution to this equation.</p></li>
-            <li><p>Sketch solution curves for <m>c_1 = 1</m> and <m>c_2 = 1</m>.</p></li>
+            <li><p>Sketch solution curve for <m>c_1 = 1</m> and <m>c_2 = 1</m>.</p></li>
             <li><p>If <m>y(0) = 1</m>, and <m>y’(0) = -2</m>, find <m>c_1</m> and <m>c_2</m>.</p></li>
           </ol>
         </statement> done

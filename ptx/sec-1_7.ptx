@@ -5,15 +5,17 @@
   <exercises xml:id="exercises-1_7">
     <exercisegroup xml:id="exercisegroup-Supplemental_HW_Problems-1_7">
       <title>Supplemental HW Problems</title>
-      <!--<introduction>
+      <introduction>
         <p>
-          The growth of my population of Puffins (in hundreds of Puffins) can be modeled with the following: <me>P’ = P(P – 4) + k</me>
         </p>
-      </introduction>-->
+        <p>
+          ODE = Ordinary Differential Equation
+        </p>
+      </introduction>
       <exercise>
         <statement>
           <p>
-            Consider the differential equation <me>\frac{dx}{dt} = x^2 + a</me>.  Sketch phase lines for different values of <m>a: a = -4, a = -1, a = 0, a = 1</m>.  What’s the bifurcation point for this differential equation?
+            Consider the differential equation <me>\frac{dx}{dt} = x^2 + a</me>.  Sketch phase lines for different values of <m>a.</m> Use <m> a = -4, a = -1, a = 0, a = 1.</m>  What’s the bifurcation point for this differential equation?
           </p>
         </statement>
         <answer>
@@ -25,7 +27,7 @@
       <exercise>
         <statement>
           <p>
-            Given the ODE <me>x’ = 0.5x^2 + bx + 8</me>, find the two bifurcation points.  If we find these values as <m>p</m> and <m>q</m>, where <m>p &lt; q</m>, discuss the equilibria for <m>b &lt; p, b = p, p &lt; b &lt; q, b = q</m>, and <m>b &gt; q</m>.  By ‘discuss’ here we mean how many equilibria are there for given values of <m>b</m>.
+            Given the ODE <me>x’ = 0.5x^2 + bx + 8</me>, find the two bifurcation points.  If we find these values as <m>p</m> and <m>q</m>, where <m>p &lt; q</m>, discuss the equilibria for <m>b &lt; p, b = p, p &lt; b &lt; q, b = q</m>, and <m>b &gt; q.</m>  By <q>discuss</q> here, we mean how many equilibria are there for given values of <m>b</m>.
           </p>
         </statement>
         <answer>
@@ -42,7 +44,7 @@
           <ol>
             <li><p>Sketch a phase line for <m>a = 0</m>.  What are the equilibrium points here?</p></li>
             <li><p>Sketch phase lines for <m>a = 12, 10, 9, 8, 5, 0, -7, -27, -40, -55</m>, and <m>-72</m>.  It might be best to use technology, like Desmos, to help with this.  What is the bifurcation point here?</p></li>
-            <li><p>Generate a bifurcation diagram: use <m>a</m> as the horizontal axis value, and <m>y</m> the vertical.  For the given values of <m>a</m> in part (b) above draw phase lines, with dots at the <m>y</m>-values that give equilibria over each different <m>a</m> value.</p></li>
+            <li><p>Generate a bifurcation diagram: use <m>a</m> as the horizontal axis value, and <m>y</m> the vertical.  For the given values of <m>a</m> in part (b) above, draw phase lines, with dots at the <m>y</m>-values that give equilibria over each different <m>a</m> value.</p></li>
           </ol>
         </statement>
         <answer>
@@ -54,13 +56,13 @@
       <exercise>
         <statement>
           <p>
-            Use the differential equation above, and assume that <m>y(t)</m> is the number of velociraptors in my theme park (in tens) during month <m>t</m>.  Also assume <m>a</m> is the number of velociraptors I harvest each month (so negative values indicate that I am purchasing more velociraptors to add to my herd).
+            Use the differential equation above and assume that <m>y(t)</m> is the number of velociraptors in my theme park (in tens) during month <m>t</m>.  Also assume <m>a</m> is the number of velociraptors I harvest each month (so negative values indicate that I am purchasing more velociraptors to add to my herd).
           </p>
           <ol>
             <li><p>Assume I start with <m>40</m> velociraptors, and do no harvesting.  Do I expect my herd to grow, remain stable, or vanish over time?</p></li>
             <li><p>Answer the same question above, but starting with <m>0, 50, 75, 100</m>, and<m>120</m> velociraptors.</p></li>
             <li><p>Answer the same questions above, but now I harvest <m>50</m> velociraptors each month.</p></li>
-            <li><p>What is the maximum number of velociraptors I can harvest each month, if I want to continue harvesting that amount indefinitely?  (Hint – this question is about the bifurcation point).  How does the initial number of velociraptors I have enter into this?</p></li>
+            <li><p>What is the maximum number of velociraptors I can harvest each month, if I want to continue harvesting that amount indefinitely?  (Hint: this question is about the bifurcation point).  How does the initial number of velociraptors I have enter into this?</p></li>
           </ol>
         </statement>
         <answer>

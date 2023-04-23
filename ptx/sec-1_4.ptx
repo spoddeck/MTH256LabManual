@@ -13,15 +13,15 @@
       <exercise>
         <statement>
           <p>
-            A gold mining operation dumps its solvents in a holding pond.  The pond has an initial volume of <m>20,000</m> cubic meters of liquid, and each day a stream diverted into the pond delivers <m>1000</m> cubic meters of water.  Each day <m>1000</m> cubic meters of mixed waste water and solvents is pumped out for treatment.  However, solids carried in from the stream settle to the bottom of the pond, reducing its volume by <m>50</m> meters per day – so the pond will be full and need dredging after <m>400</m> days of operation.  Each day <m>5</m>kg of solvents enters the pond.
+            A gold mining operation dumps its solvents into a holding pond.  The pond has an initial volume of <m>20,000</m> cubic meters of liquid, and each day a stream diverted into the pond delivers <m>1000</m> cubic meters of water.  Each day, <m>1000</m> cubic meters of mixed waste water and solvents is pumped out for treatment.  However, solids carried in from the stream settle to the bottom of the pond, reducing its volume by <m>50</m> meters per day – so the pond will be full and need dredging after <m>400</m> days of operation.  Each day, <m>5</m>kg of solvents enter the pond.
           </p>
           <p>
-            If <m>x(t)</m> gives the amount of solvent in the pond (in kilograms) on day <m>t</m>, then the derivative <m>x’(t)</m> gives the rate of change of solvent in the pond, and can be found as follows:
+            If <m>x(t)</m> gives the amount of solvent in the pond (in kilograms) on day <m>t</m>, then the derivative <m>x’(t)</m> gives the rate of change of solvent in the pond and can be found as follows:
             <me>\frac{dx}{dt} = rate_{in} - rate_{out}</me>.
-            The rate in is constant, at <m>5</m> (kg/day).  The rate out varies as more solvent enters the pond.  Given that <m>1000</m> liters of water leave the pond each day, and the concentration of solids leaving the pond is the total amount of solvent in the pond on day <m>t</m>, divided by the total amount of water in the pond on day <m>t</m>, we can find the amount of solids that leave the pond by multiplying the amount of water (in liters) by the concentration (in kg/liter).
+            The rate in is constant at <m>5</m> (kg/day).  The rate out varies as more solvent enters the pond.  We know that <m>1000</m> liters of water leave the pond each day.  We also know that the concentration of solids leaving the pond is the total amount of solvent in the pond on day <m>t</m> divided by the total amount of water in the pond on day <m>t</m>.  Therefore, we can find the amount of solids that leave the pond by multiplying the amount of water (in liters) by the concentration (in kg/liter).
           </p>
           <p>
-            A more detailed analysis of this, as well as the explicit formula for <m>x’(t)</m>, is given in <xref ref="sec-1_5"/> in our book.
+            A more detailed analysis of this, as well as the explicit formula for <m>x’(t)</m>, is given in <url href="http://faculty.sfasu.edu/judsontw/ode/html-20210811/firstlook05.html">Section 1.5</url> of our textbook.
           </p>
           <ol>
             <li><p>Use Euler’s method to estimate the amount of solvent in the pond on day <m>10</m>, using step sizes of <m>1</m> and <m>0.01</m>.</p></li>
@@ -37,7 +37,7 @@
       <exercise>
         <statement>
           <p>
-            I retire, and between some good investments and selling my Portland home to move to Arizona, I have a nest egg of <m>\$2.5</m> million saved up, in an account that earns a guaranteed <m>3.5\%</m> annual interest for as long as I maintain a balance.  My tarot reader tells me that I have exactly <m>35</m> years to live after retirement before my death.  If I withdraw <m>\$120,000</m> per year, will there be any money left for my kids to inherit?  (Use Euler’s method with step-sizes of <m>1, 0.1</m>, and <m>0.01</m>.  If <m>P(t)</m> is the amount I have in savings, let <m>P’</m> be the amount coming in (which is <m>0.035P</m>) minus the amount going out (which is <m>120,000</m>).)
+            I retire, and between some good investments and selling my Portland home to move to Arizona, I have a nest egg of <m>\$2.5</m> million saved up, in an account that earns a guaranteed <m>3.5\%</m> annual interest for as long as I maintain a balance.  My tarot reader tells me that I have exactly <m>35</m> years to live after retirement before my death.  If I withdraw <m>\$120,000</m> per year, will there be any money left for my kids to inherit?  Use Euler’s method with step-sizes of <m>1, 0.1</m>, and <m>0.01</m>.  If <m>P(t)</m> is the amount I have in savings, let <m>P’</m> be the amount coming in (which is <m>0.035P</m>) minus the amount going out (which is <m>120,000</m>).
           </p>
         </statement>
         <answer>

@@ -5,20 +5,25 @@
   <exercises xml:id="exercises-1_6">
     <exercisegroup xml:id="exercisegroup-Supplemental_HW_Problems-1_6">
       <title>Supplemental HW Problems</title>
-      <!--<introduction>
+      <introduction>
         <p>
-          Consider the differential equation <me>\frac{dy}{dx} = y^2 - 4</me>.
         </p>
-      </introduction>-->
+        <p>
+          ODE = Ordinary Differential Equation;
+        </p>
+        <p>
+          IVP = Initial Value Problem
+        </p>
+      </introduction>
       <exercise>
         <statement>
           <p>
             Consider the differential equation <me>y’ = 5y^{4/5}</me>
           </p>
           <ol>
-            <li><p>Given the initial condition <m>y(0) = 0</m>, what can we say about the existence or uniqueness of solutions?</p></li>
-            <li><p>Given the initial condition <m>y(0) = 1</m>, what can we say about the existence or uniqueness of solutions?</p></li>
-            <li><p>For either of the above that give uniquely existing solutions, give a rectangle that we can use to contain possible solutions.</p></li>
+            <li><p>Given the initial condition <m>y(0) = 0</m>, what can we say about the existence or uniqueness of the solutions of our differential equation?</p></li>
+            <li><p>Given the initial condition <m>y(0) = 1</m>, what can we say about the existence or uniqueness of the solutions of our differential equation?</p></li>
+            <li><p>If either of the above initial conditions give uniquely existing solutions, give a rectangle that we can use to contain those possible solutions.</p></li>
           </ol>
         </statement>
         <answer>
@@ -30,7 +35,7 @@
       <exercise>
         <statement>
           <p>
-            Why and how does the formal definition of Uniqueness and Existence work?  I’m not asking for a formal proof here – what are the ideas behind the proof?  Why does the continuity of the differential function, and of the partial derivative with respect to <m>y</m>, mean the differential equation has one and only one solution for a given initial condition?  (Hint: Talk about continuity here.  If we have some function <m>f(x, y, y’)</m> that’s not continuous for some inputs, what does that mean?  Why could that give something that’s not unique, or that doesn’t exist?)
+            Why and how does the formal definition of Uniqueness and Existence work?  We are not asking for a formal proof here – what are the ideas behind the proof?  Why does the continuity of the differential function, and of the partial derivative with respect to <m>y</m>, mean the differential equation has one and only one solution for a given initial condition?  (Hint: Talk about continuity here.  If we have some function <m>f(x, y, y’)</m> that’s not continuous for some inputs, what does that mean?  Why could that give something that’s not unique, or that doesn’t exist?)
           </p>
         </statement>
         <answer>
@@ -54,7 +59,7 @@
       <exercise>
         <statement>
           <p>
-            Given the initial value ODE <me>y’ = \frac{t}{y-2}, y(-1) = 0</me>, find a solution for this IVP and give a domain for where the solution exists uniquely.  What happens as we approach the limit of it’s defined domain?
+            Given the initial value ODE <me>y’ = \frac{t}{y-2}, y(-1) = 0</me>, find a solution to this IVP and give a domain for where the solution exists uniquely.  What happens as we approach the limit of its defined domain?
           </p>
         </statement>
         <answer>
@@ -66,7 +71,7 @@
       <exercise>
         <statement>
           <p>
-            Solve the initial-value ODE <me>x’ = \frac{x}{t}, x(-1) = -2</me>.  Verify your solution – does it work?  Give an interval for t for the solution you found.
+            Solve the initial value ODE <me>x’ = \frac{x}{t}, x(-1) = -2</me>.  Verify your solution – does it work?  Give an interval for t for the solution you found.
           </p>
         </statement>
         <answer>
@@ -78,7 +83,7 @@
       <exercise>
         <statement>
           <p>
-            For the initial value ODE <me>x’ = x^{1/3}, x(0) = 0</me>, Wolfram Alpha tells me that the solution is <me>x(t) = \frac{2}{3}\sqrt{\frac{2}{3}} t^{3/2}</me>.  Explain why that’s not correct using the techniques of this chapter.
+            For the initial value ODE <me>x’ = x^{1/3}, x(0) = 0</me>, Wolfram Alpha tells us that the solution is <me>x(t) = \frac{2}{3}\sqrt{\frac{2}{3}} t^{3/2}</me>.  Explain why that’s not correct using the techniques of this chapter.
           </p>
         </statement>
         <answer>

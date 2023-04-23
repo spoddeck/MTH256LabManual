@@ -4,7 +4,8 @@
   <xi:include href="./docinfo.ptx"/>
 
   <book xml:id="supplement256">
-    <title>MTH 256 Supplement to Judson's "The Ordinary Differential Equations Project"</title>
+    <title>MTH 256 Supplement to Judson's <q>The Ordinary Differential Equations Project</q></title>
+    <!-- <title>MTH 256 Supplement to Judson's <pubtitle>The Ordinary Differential Equations Project</pubtitle></title> -->
     <frontmatter>
       <titlepage>
         <author>
@@ -91,11 +92,10 @@
     <xi:include href="./chapter_4.ptx"/>
     <xi:include href="./chapter_5.ptx"/>
     <xi:include href="./chapter_6.ptx"/>
-    <xi:include href="./mth111.ptx"/>
-    <xi:include href="./mth112.ptx"/>
 
     <backmatter>
-      <solutions divisional="answer solution">
+      <!-- <solutions divisional="answer solution"> -->
+      <solutions divisional="answer solution" admit="odd">
         <title>Answers and Solutions to Exercises</title>
       </solutions>
     </backmatter>

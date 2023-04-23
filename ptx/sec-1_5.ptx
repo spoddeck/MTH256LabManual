@@ -7,18 +7,21 @@
       <title>Supplemental HW Problems</title>
       <introduction>
         <p>
-          Note: these are the same basic problems as the ones for <xref ref="sec-1_4"/>.  There we used numerical approximation techniques; here we will solve exactly. Once you find the solution, compare with the answers you got from the last section!
+          Note: These are the same basic problems as the ones for <xref ref="sec-1_4"/>.  There, we used numerical approximation techniques; here, we will solve them exactly. Once you find the solutions, compare them with the answers you got from the last section!
         </p>
       </introduction>
       <exercise>
         <statement>
           <p>
-            A gold mining operation dumps its solvents in a holding pond.  The pond has an initial volume of <m>20,000</m> cubic meters of liquid, and each day a stream diverted into the pond delivers <m>1000</m> cubic meters of water.  Each day <m>1000</m> cubic meters of mixed waste water and solvents is pumped out for treatment.  However, solids carried in from the stream settle to the bottom of the pond, reducing its volume by <m>50</m> meters per day – so the pond will be full and need dredging after <m>400</m> days of operation.  Each day <m>5</m>kg of solvents enters the pond.
+            A gold mining operation dumps its solvents into a holding pond.  The pond has an initial volume of <m>20,000</m> cubic meters of liquid, and each day a stream diverted into the pond delivers <m>1000</m> cubic meters of water.  Each day, <m>1000</m> cubic meters of mixed waste water and solvents is pumped out for treatment.  However, solids carried in from the stream settle to the bottom of the pond, reducing its volume by <m>50</m> meters per day – so the pond will be full and need dredging after <m>400</m> days of operation.  Each day, <m>5</m>kg of solvents enter the pond.
           </p>
           <p>
-            If <m>x(t)</m> gives the amount of solvent in the pond (in kilograms) on day <m>t</m>, then the derivative <m>x’(t)</m> gives the rate of change of solvent in the pond, and can be found as follows:
+            If <m>x(t)</m> gives the amount of solvent in the pond (in kilograms) on day <m>t</m>, then the derivative <m>x’(t)</m> gives the rate of change of solvent in the pond and can be found as follows:
             <me>\frac{dx}{dt} = rate_{in} - rate_{out}</me>.
-            The rate in is constant, at <m>5</m> (kg/day).  The rate out varies as more solvent enters the pond.  Given that <m>1000</m> liters of water leave the pond each day, and the concentration of solids leaving the pond is the total amount of solvent in the pond on day <m>t</m>, divided by the total amount of water in the pond on day <m>t</m>, we can find the amount of solids that leave the pond by multiplying the amount of water (in liters) by the concentration (in kg/liter).
+            The rate in is constant at <m>5</m> (kg/day).  The rate out varies as more solvent enters the pond.  We know that <m>1000</m> liters of water leave the pond each day.  We also know that the concentration of solids leaving the pond is the total amount of solvent in the pond on day <m>t</m> divided by the total amount of water in the pond on day <m>t</m>.  Therefore, we can find the amount of solids that leave the pond by multiplying the amount of water (in liters) by the concentration (in kg/liter).
+          </p>
+          <p>
+            A more detailed analysis of this, as well as the explicit formula for <m>x’(t)</m>, is given in <url href="http://faculty.sfasu.edu/judsontw/ode/html-20210811/firstlook05.html">Section 1.5</url> of our textbook.
           </p>
           <p>
             Use an integrating factor to solve for <m>x(t)</m> explicitly, and use that formula to find <m>x(10)</m> and <m>x(200)</m>.
@@ -57,7 +60,7 @@
       <exercise>
         <statement>
           <p>
-            Lake Fidget is horribly polluted with agricultural run-off.  The lake contains 2600 cubic km of water, and has an inflow and outflow of 150 km<m>^3</m> per year.  In 2020 new legislation went into effect reducing the amount of agricultural pollution to zero, but it will take time to flush the current contaminants from Lake Fidget.  If <m>x(t)</m> is the amount of pollutant in tons per cubic km, And <m>x(0) = P</m>, write a differential equation that models the amount of pollutant in Lake Fidget, and find how long it takes for the pollution level to drop to half of 2020 levels.
+            Lake Fidget is horribly polluted with agricultural run-off.  The lake contains 2600 cubic km of water, and it has an inflow and outflow of 150 km<m>^3</m> per year.  In 2020, new legislation went into effect reducing the amount of agricultural pollution to zero, but it will take time to flush out the current contaminants from Lake Fidget.  If <m>x(t)</m> is the amount of pollutant in tons per cubic km and <m>x(0) = P,</m> write a differential equation that models the amount of pollutant in Lake Fidget. Then find how long it takes for the pollution level to drop to half of the 2020 levels.
           </p>
         </statement>
         <answer>
@@ -69,7 +72,7 @@
       <exercise>
         <statement>
           <p>
-            Given the pollution situation in Lake Fidget as above, now assume that the legislation reduces the agricultural to 10% of pre-2020 levels.  How long does it take under this situation for the pollution level to be halved?
+            Given the pollution situation in Lake Fidget as above, now assume that the legislation reduces the agricultural run-off to 10% of pre-2020 levels.  How long does it take under this situation for the pollution level to be cut in half?
           </p>
         </statement>
         <answer>
@@ -81,7 +84,7 @@
       <exercise>
         <statement>
           <p>
-            Early one morning it begins to snow at a constant rate.  At 7 am, a snowplow sets off to clear a road.  By 8am it had travelled 2 miles, but it took an additional 2 hours to go the next two hours.  Let <m>x(t)</m> be the distance travelled by the snow plow after <m>t</m> hours of travel, and <m>x(0) = 0</m> to make the math easier.  Also assume that the snowplow clears snow from the road at a constant rate (so goes slower as the snow gets deeper).  Perform the analysis to find the time at which it started snowing.
+            Early one morning, it begins to snow at a constant rate.  At 7 am, a snowplow sets off to clear a road.  By 8 am it had travelled 2 miles, but it took an additional 2 hours to go the next 2 miles.  Let <m>x(t)</m> be the distance travelled by the snow plow after <m>t</m> hours of travel, and <m>x(0) = 0</m> to make the math easier.  Also assume that the snowplow clears snow from the road at a constant rate (so goes slower as the snow gets deeper).  Perform the analysis to find the time at which it started snowing.
           </p>
         </statement>
         <answer>

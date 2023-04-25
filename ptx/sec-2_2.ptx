@@ -5,11 +5,20 @@
   <exercises xml:id="exercises-2_2">
     <exercisegroup xml:id="exercisegroup-Supplemental_HW_Problems-2_2">
       <title>Supplemental HW Problems</title>
-      <!--<introduction>
+      <introduction>
         <p>
-          Consider the differential equation <me>\frac{dy}{dx} = y^2 - 4</me>.
+          Systems of Differential Equations are easiest to understand if seen in the context of relationships between people or populations. Since most people have some experience with romantic relationship dynamics, some of the problems will use love stories.
         </p>
-      </introduction>-->
+        <p>
+          In order to make it easier by being consistent, those problems will refer to the characters of Romeo and Juliet without referring to their exact story. Those characters are taken from Sheakespear's play <q>Romeo and Juliet</q> and most people who went to school in the U.S. will have come across them in a book, play, or film.
+        </p>
+        <p>
+          However, you are welcome to replace them with other characters and other variables - two men, two women, from other cultures. Just define them at the beginning of your work as you do with all variables you use.
+        </p>
+        <p>
+          NOTE: The example of Romeo and Juliet as a system of Differential Equations is from a paper titled “Love Affairs and Differential Equations” by Steven Strogatz, Published in the February 1988 edition of Mathematics Magazine.  This paper and several others expanding these ideas can be found by googling “Romeo and Juliet differential equations”.
+        </p>
+      </introduction>
       <exercise>
         <statement>
           <p>
@@ -18,18 +27,15 @@
           <p>
             To put this in terms of Differential Equations, we look at the following situation:  Juliet is in love with being in love, and so her love changes directly, twice as much as how she’s feeling about Romeo.  However, she’s a bit scared of intimacy, so her love changes in the opposite direction as Romeo’s feelings for her.  Romeo, on the other hand, is fickle – his love changes by twice as much as his feelings for Juliet, and three times as much as her feelings for him, both in the opposite direction.  The system of equations here is:
           </p>
-          <p>
-            <me>J’(t) = 2J – R</me>
-          </p>
-          <p>
-            <me>R’(t) = -3J – 2R</me>
-          </p>
+          <p><md>
+            <mrow>J’(t) \amp = 2J – R</mrow>
+            <mrow>R’(t) \amp = -3J – 2R</mrow>
+          </md></p>
           <ol>
-            <li><p>Using the Sage tool in our book, plot this situation.  Then using the initial condition <m>J(0) = -1</m> and <m>R(0) = 1</m> plot the solution curve on your vector field.  What does this solution indicate about their relationship?</p></li>
+            <li><p>Using the Sage tool in <url href="http://faculty.sfasu.edu/judsontw/ode/html-20210811/systems02.html">Section 2.2.4</url> of our book, plot this situation.  Then using the initial condition <m>J(0) = -1</m> and <m>R(0) = 1</m> plot the solution curve on your vector field.  What does this solution indicate about their relationship?</p></li>
             <li>
               <p>Now do the same thing – find the system of differential equations, plot the vector field, and plot the solution curve for the given initial condition – for the following:</p>
               <p>Juliet’s love increases by three times her own love, and nine times Romeo’s love, while Romeo’s love decreases by four times Juliet’s love, and three times his own.  Furthermore, Juliet starts with a love-value of <m>2</m> for Romeo, but Romeo, being from a warring house, starts with a love-value of <m>-4</m> for Juliet.</p>
-              <p>(NOTE: the example of Romeo and Juliet as a system of Differential Equations is from a paper titled “Love Affairs and Differential Equations” by Steven Strogatz, Published in the February 1988 edition of Mathematics Magazine.  This paper and several others expanding these ideas can be found by googling “Romeo and Juliet differential equations”.)</p>
             </li>
           </ol>
         </statement>
@@ -42,14 +48,14 @@
       <exercise>
         <statement>
           <p>
-            Use Sage to plot the systems we looked at in <xref ref="sec-2_1"/> and use the vector fields and solution curve to discuss long-term behavior of the spring-mass systems below:
+            Using the Sage tool in <url href="http://faculty.sfasu.edu/judsontw/ode/html-20210811/systems02.html">Section 2.2.4</url> of our book, plot the systems we looked at in <xref ref="sec-2_1"/> and use the vector fields and solution curve to discuss long-term behavior of the spring-mass systems below:
           </p>
           <ol>
             <li><p>Plot the system for a spring-mass system with <m>m = 1, c = 0</m>, and <m>k = 9</m>.  Use the initial conditions <m>x(0) = v(0) = 0</m>.</p></li>
-            <li><p>Now do the same for the system above with initial conditions <m>x(0) = 6, v(0) = 0</m>.</p></li>
-            <li><p>Now do the same for the damped system with the following conditions: <me>m = 1;  c = 2;  k = 26; x(0) = 0;  v(0) = 0</me>.</p></li>
+            <li><p>Now, do the same for the system above with initial conditions <m>x(0) = 6, v(0) = 0</m>.</p></li>
+            <li><p>Now, do the same for the damped system with the following conditions: <me>m = 1;  c = 2;  k = 26; x(0) = 0;  v(0) = 0</me>.</p></li>
             <li><p>Do the same for the damped system with the following conditions: <me>m = 1;  c = 2;  k = 26; x(0) = 6;  v(0) = 0</me>.</p></li>
-            <li><p>Now do the same for the damped system with the following conditions: <me>m = 2;  c = 10;  k = 12; x(0) = 0;  v(0) = 0</me>.</p></li>
+            <li><p>Now, do the same for the damped system with the following conditions: <me>m = 2;  c = 10;  k = 12; x(0) = 0;  v(0) = 0</me>.</p></li>
             <li><p>Finally, do the same for the damped system with the following conditions: <me>m = 2;  c = 10;  k = 12; x(0) = 0;  v(0) = 4</me>.</p></li>
           </ol>
         </statement>

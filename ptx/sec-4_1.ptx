@@ -45,7 +45,7 @@
                 \end{pmatrix}</me></p></li>
               </ol>
             </li>
-            <li><p>Graph all five matrices with the initial condition <m>x = 2, y = -1</m> (using a Phase Plane plotter – there are several online, and our book has Sage tools for this).  What is different about the four solution curves?  What is the same?  The idea here is to delineate what the eigenvalues tell us about the solution curves from what the eigenvectors tell us.</p></li>
+            <li><p>Graph all five matrices with the initial condition <m>x = 2, y = -1</m> (using a Phase Plane plotter – there are several online, and our book has Sage tools for this in <url href="http://faculty.sfasu.edu/judsontw/ode/html-20210811/systems02.html">Section 2.2.4</url> of our book).  What is different about the four solution curves?  What is the same?  The idea here is to delineate what the eigenvalues tell us about the solution curves from what the eigenvectors tell us.</p></li>
           </ol>
         </statement>
         <answer>

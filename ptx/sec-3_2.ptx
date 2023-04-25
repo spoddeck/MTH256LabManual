@@ -13,11 +13,11 @@
       <exercise>
         <statement>
           <p>
-            Let’s revisit our Star-Crossed lovers and their systems of differential equations.  For the questions below, set up the equations, find the matrix and its eigenvalues/eigenvectors, and use that information to write the general solution of Juliet’s and Romeo’s love for each other.  Can we tell from the information given what will happen to their love for each other over time?
+            Let’s revisit our Star-Crossed lovers from <xref ref="sec-2_2"/> and their systems of differential equations.  For the questions below, set up the equations, find the matrix and its eigenvalues/eigenvectors, and use that information to write the general solution of Juliet’s and Romeo’s love for each other.  Can we tell from the given information what will happen to their love for each other over time?
           </p>
           <ol>
             <li><p>Juliet’s love changes by the amount of love she feels, and goes down by twice Romeo’s love; his love goes up by <m>4</m> times Juliet’s love, but down by <m>5</m> times his love for her.</p></li>
-            <li><p>Juliet’s love increases by twice the amount of love she feels, but goes down the same amount of love Romeo feels for her; Romeo’s love goes down by <m>4</m> times the love she feels for him, but goes up by <m>5</m> times the amount of his love for her.?</p></li>
+            <li><p>Juliet’s love increases by twice the amount of love she feels, but goes down the same amount of love Romeo feels for her; Romeo’s love goes down by <m>4</m> times the love she feels for him, but goes up by <m>5</m> times the amount of his love for her.</p></li>
             <li><p>Juliet’s love goes up by twice the amount of love she feels, and down by twice the amount of love Romeo feels for her; Romeo’s love goes down by five times the amount of love Juliet feels for him, and down by the same amount of love he feels for her.</p></li>
           </ol>
         </statement>
@@ -30,7 +30,7 @@
       <exercise>
         <statement>
           <p>
-            Now consider the three situations above but with initial conditions.  Use these three initial conditions for each of the situations above: <m>(0, 0), (1, 1), (-1, 1)</m>.  What are the prospects for their relationship long-term with these conditions?
+            Now consider the three situations above but with initial conditions.  Use these three initial conditions for each of the situations above: <m>(0, 0),</m> <m>(1, 1),</m> and <m>(-1, 1).</m>  What are the prospects for their relationship long-term with these conditions?
           </p>
         </statement>
         <answer>
@@ -42,7 +42,7 @@
       <exercise>
         <statement>
           <p>
-            Consider <url href="http://faculty.sfasu.edu/judsontw/ode/html-20210811/linear02.html">example 3.2.1</url> from our text book (a system of two tanks filled with brine).  For the following, perform the eigenvalue/eigenvector analysis to find the solution, and then determine how long it will take each tank’s salt concentration to get under <m>1</m> gram/liter (<m>1</m> gram is <m>0.001</m> kg).  Do this for four different sets of initial conditions:
+            Consider <url href="http://faculty.sfasu.edu/judsontw/ode/html-20210811/linear02.html">example 3.2.1</url> from our textbook (a system of two tanks filled with brine).  For the following tank scenarios a) and b), perform the eigenvalue/eigenvector analysis to find the solution, and then determine how long it will take each tank’s salt concentration to get under <m>1</m> gram/liter (<m>1</m> gram is <m>0.001</m> kg).  Do this for four different sets of initial conditions:
             <ol marker="i">
               <li><p>Tank A contains <m>100</m> kg salt, and Tank B contains <m>0</m> kg salt</p></li>
               <li><p>Tank A contains <m>0</m> kg of salt, and Tank B contains <m>0</m> kg salt</p></li>
@@ -51,8 +51,8 @@
             </ol>
           </p>
           <ol>
-            <li><p>Tank A contains <m>1000</m> liters of brine, and tank B contains <m>1500</m> liters of brine.  <m>2000</m> liters per hour of fresh water pour into tank A, and <m>2000</m> liters per hour flow out of tank B.  Additionally, <m>3000</m> liters/hr flows from tank A to tank B, and <m>1000</m> liters/hr flows from B to A.</p></li>
-            <li><p>Tanks A and B each contain <m>500</m> liters of brine.  <m>1000</m> liters per hour of fresh water pour into tank A, and <m>1000</m> liters per hour flow out of tank B.  Additionally, <m>1500</m> liters/hr flows from tank A to tank B, and <m>500</m> liters/hr flows from B to A.</p></li>
+            <li><p>Tank A contains <m>1000</m> liters of brine, and tank B contains <m>1500</m> liters of brine.  <m>2000</m> liters per hour of fresh water pour into tank A, and <m>2000</m> liters per hour flow out of tank B.  Additionally, <m>3000</m> liters/hr flow from tank A to tank B, and <m>1000</m> liters/hr flow from tank B to tank A.</p></li>
+            <li><p>Tanks A and B each contain <m>500</m> liters of brine.  <m>1000</m> liters per hour of fresh water pour into tank A, and <m>1000</m> liters per hour flow out of tank B.  Additionally, <m>1500</m> liters/hr flow from tank A to tank B, and <m>500</m> liters/hr flow from tank B to tank A.</p></li>
           </ol>
         </statement>
         <answer>

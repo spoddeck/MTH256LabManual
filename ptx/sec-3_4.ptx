@@ -17,15 +17,16 @@
         </p>
         <ol>
           <li>
-            <p><me>x’ = 3x + 9y</me></p>
-            <p><me>y’ = -4x – 3y</me></p>
-            <p>
-              
-            </p>
+            <p><md>
+              <mrow>x’ \amp = 3x + 9y</mrow>
+              <mrow>y’ \amp = -4x – 3y</mrow>
+            </md></p>
           </li>
           <li>
-            <p><me>x’ = 3x – 13y</me></p>
-            <p><me>y' = 5x + y</me></p>
+            <p><md>
+              <mrow>x’ \amp = 3x – 13y</mrow>
+              <mrow>y’ \amp = 5x + y</mrow>
+            </md></p>
           </li>
         </ol>
       </statement>
@@ -66,14 +67,14 @@
     <exercise>
       <statement>
         <p>
-          Romeo and Juliet are Star-Crossed Lovers.  Each of them loves the other, with functions giving the numerical amount of love (or hate, if negative) over time (in days) with <m>J(t)</m> and <m>R(t)</m>.  Their love for each other changes based on how much love they currently have, and how much love the other feels for them.
+          Coming back to our examples from <xref ref="sec-2_2"/>, Romeo and Juliet are Star-Crossed Lovers.  Each of them loves the other, with functions giving the numerical amount of love (or hate, if negative) over time (in days) with <m>J(t)</m> and <m>R(t)</m>.  Their love for each other changes based on how much love they currently have, and how much love the other feels for them.
         </p>
         <p>
           In the two scenarios below, discuss the long-term prospects of our Shakespearian lovers.  In other words, as time goes on, what will each of their love functions do?  Also, determine how much love they feel for each other after five days?
         </p>
         <ol>
           <li><p>Juliet’s love increases by three times her own love, and nine times Romeo’s love, while Romeo’s love decreases by four times Juliet’s love, and three times his own.  Furthermore, Juliet starts with a love-value of <m>2</m> for Romeo, but Romeo, being from a warring house, starts with a love-value of <m>-4</m> for Juliet.</p></li>
-          <li><p>This time, Romeo falls for Juliet, so his initial love-value is <m>3</m>, but Juliet is aghast by the attention and has a starting love-value of <m>-</m>.  Romeo enjoys his own feelings of love, but is a bit of a contrarian; his love increases by <m>3</m> times his own feelings of love but decreases by <m>13</m> times Juliet’s feelings for him.  Juliet, on the other hand, enjoys the attention from Romeo as well as, to a lesser extent, her own feelings – her love for Romeo increases by <m>5</m> times Romeo’s love, and by one times her own.</p></li>
+          <li><p>This time, Romeo falls for Juliet, so his initial love-value is <m>3</m>, but Juliet is aghast by the attention and has a starting love-value of <m>-10</m>.  Romeo enjoys his own feelings of love, but is a bit of a contrarian; his love increases by <m>3</m> times his own feelings of love but decreases by <m>13</m> times Juliet’s feelings for him.  Juliet, on the other hand, enjoys the attention from Romeo as well as, to a lesser extent, her own feelings – her love for Romeo increases by <m>5</m> times Romeo’s love, and by one times her own.</p></li>
         </ol>
       </statement>
       <answer>
@@ -85,7 +86,7 @@
     <exercise>
       <statement>
         <p>
-          PROJECT QUESTION:  In the play Romeo and Juliet, Romeo’s feelings for Juliet are positive, Juliet is initially conflicted (negative love) but grows more positive, and the play takes place over the course of five days.  Using a slope field plotter, with Juliet’s love on the horizontal axis and Romeo’s on the vertical axis, find a love matrix and initial conditions that start in quadrant II and moves clockwise to quadrant I, where the curve ends close to the line <m>J = R</m> (the identity line) at <m>t = 5</m>.  Hint: we’re looking for a curve that spirals out, where the spiral moves counter-clockwise.  Have we seen any matrices with this behavior?  Can we adjust the numbers to get the correct slope field and solution curve for this scenario?  If time went on for the two lovers – if they hadn’t died at the end of the play – what does this model say about their relationship, long-term?
+          <em>Project Question:</em>  In the play Romeo and Juliet, Romeo’s feelings for Juliet are positive. Juliet is initially conflicted (negative love) but grows more positive, and the play takes place over the course of five days.  Using a slope field plotter, with Juliet’s love on the horizontal axis and Romeo’s on the vertical axis, find a love matrix and initial conditions that start in quadrant II and moves clockwise to quadrant I, where the curve ends close to the line <m>J = R</m> (the identity line) at <m>t = 5</m>.  Hint: we’re looking for a curve that spirals out, where the spiral moves counter-clockwise.  Have we seen any matrices with this behavior?  Can we adjust the numbers to get the correct slope field and solution curve for this scenario?  If time went on for the two lovers – if they hadn’t died at the end of the play – what does this model say about their relationship, long-term?
         </p>
       </statement>
       <answer>

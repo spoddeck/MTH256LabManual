@@ -13,7 +13,7 @@
     <exercise>
       <statement>
         <p>
-          Let’s consider Romeo and Juliet again, and look at their love equations through the lens of the Phase Plane.  For the three scenarios below (the same ones we analyzed in <xref ref="sec-3_2"/>) do the following:
+          Let’s consider Romeo and Juliet again, and look at their love equations through the lens of the Phase Plane.  For the three scenarios a), b), c) below (the same ones we analyzed in <xref ref="sec-3_2"/>), do the following:
           <ol marker="i">
             <li><p>Create the system of equations in matrix form and use the eigenvalues and eigenvectors to find the solutions (we’ve done that in the previous section).</p></li>
             <li><p>Identify the straight-line solutions and discuss their relationship when the initial conditions fall on one of these solutions.</p></li>
@@ -35,14 +35,14 @@
     <exercise>
       <statement>
         <p>
-          Now consider our salty tanks problems from the previous section.  For each set of tanks identify the straight-line solutions, talk about what happens when our initial conditions start on one of these solutions, and identify the equilibrium point <m>(0, 0)</m> as a sink, source, or saddle.
+          Now consider our salty tanks problems from the previous <xref ref="sec-3_2"/>.  For each set of tanks, identify the straight-line solutions, talk about what happens when our initial conditions start on one of these solutions, and identify the equilibrium point <m>(0, 0)</m> as a sink, source, or saddle.
         </p>
         <p>
-          BONUS QUESTION: How long will it take to completely flush the tanks so that no salt remains in either?
+          <em>Bonus Question</em>: How long will it take to completely flush the tanks so that no salt remains in either?
         </p>
         <ol>
-          <li><p>Tank A contains <m>1000</m> liters of brine, and tank B contains <m>1500</m> liters of brine.  <m>2000</m> liters per hour of fresh water pour into tank A, and <m>2000</m> liters per hour flow out of tank B.  Additionally, <m>3000</m> liters/hr flows from tank A to tank B, and <m>1000</m> liters/hr flows from B to A.</p></li>
-          <li><p>Tanks A and B each contain <m>500</m> liters of brine.  <m>1000</m> liters per hour of fresh water pour into tank A, and <m>1000</m> liters per hour flow out of tank B.  Additionally, <m>1500</m> liters/hr flows from tank A to tank B, and <m>500</m> liters/hr flows from B to A.</p></li>
+          <li><p>Tank A contains <m>1000</m> liters of brine, and tank B contains <m>1500</m> liters of brine.  <m>2000</m> liters per hour of fresh water pour into tank A, and <m>2000</m> liters per hour flow out of tank B.  Additionally, <m>3000</m> liters/hr flow from tank A to tank B, and <m>1000</m> liters/hr flow from tank B to tank A.</p></li>
+          <li><p>Tanks A and B each contain <m>500</m> liters of brine.  <m>1000</m> liters per hour of fresh water pour into tank A, and <m>1000</m> liters per hour flow out of tank B.  Additionally, <m>1500</m> liters/hr flow from tank A to tank B, and <m>500</m> liters/hr flow from tank B to tank A.</p></li>
         </ol>
       </statement>
       <answer>

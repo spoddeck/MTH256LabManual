@@ -5,42 +5,50 @@
   <exercises xml:id="exercises-2_1">
     <exercisegroup xml:id="exercisegroup-Supplemental_HW_Problems-2_1">
       <title>Supplemental HW Problems</title>
-      <introduction>
+      <!-- <introduction>
         <p>
-          Hooke’s law says that the force exerted by a spring on a mass is proportional to the distance from the mass/spring system’s resting position.
+
         </p>
-      </introduction>
+      </introduction> -->
       <exercise>
         <statement>
           <p>
-            Find an equation that models this, using k to indicate the constant for the spring’s force and x for the position of the mass from rest.
+            Hooke’s law says that the force exerted by a spring on a mass is proportional to the distance from the mass/spring system’s resting position.
           </p>
+          <ol>
+            <li><p>Find an equation that models this, using <m>k</m> to indicate the constant for the spring’s force and <m>x</m> for the position of the mass from rest.</p></li>
+            <li><p>Use <m>F = ma</m> to find a second order ODE that models a frictionless mass/spring system.  If <m>m</m> is for mass, what does <m>a</m> stand for here?  How is that related to the mass’s position?</p></li>
+          </ol>
         </statement>
         <answer>
           <p>
-            <m>g(x)=f(-x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>y</m>-axis to obtain <m>y=g(x)</m>.
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
           </p>
         </answer>
       </exercise>
       <exercise>
         <statement>
           <p>
-            Use <m>F = ma</m> to find a second order ODE that models a frictionless mass/spring system.  If m is for mass, what does a stand for here?  How is that related to the mass’s position?
+            The world is more complicated than just the force of the spring, however. There’s friction, both internal (the spring itself) and external (the friction between the mass and the air, or the surface the mass rests upon).  Friction always acts opposite to the direction of motion, with a force that is proportional to the velocity.
           </p>
-          <p>
-            The world is more complicated than just the force of the spring, however – there’s friction, both internal (the spring itself) and external (the friction between the mass and the air, or the surface the mass rests upon).  Friction always acts opposite to the direction of motion, with a force that is proportional to the velocity.
-          </p>
+          <ol>
+            <li><p>Write the frictional force that models this.  Use <m>c</m> as the frictional constant (combining all the frictional forces).</p></li>
+            <li><p>Add this force to the ODE you found in problem 1 above.</p></li>
+          </ol>
         </statement>
         <answer>
           <p>
-            <m>h(x)=-f(x)</m>. So, we can reflect the graph of <m>y=f(x)</m> across the <m>x</m>-axis to obtain <m>y=h(x)</m>.
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
           </p>
         </answer>
       </exercise>
       <exercise>
         <statement>
           <p>
-            Write the frictional force that models this.  Use <m>c</m> as the frictional constant (combining all the frictional forces).
+            If <m>k</m> is the spring constant (involving the force the spring exerts on the mass) and <m>c</m> is the damping constant (involving the frictional or damping forces):
+          </p>
+          <p>
+            Show that <m>mx'' + cx’ +kx = 0</m> when there is no external force applied to the spring/mass system with mass <m>m</m>.
           </p>
         </statement>
         <answer>
@@ -52,51 +60,22 @@
       <exercise>
         <statement>
           <p>
-            Add this force to the ODE you found above.
-          </p>
-          <p>
-            If <m>k</m> is the spring constant (involving the force the spring exerts on the mass), and <m>c</m> is the damping constant (involving the frictional or damping forces):
-          </p>
-        </statement>
-        <answer>
-          <p>
-            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
-          </p>
-        </answer>
-      </exercise>
-      <exercise>
-        <statement>
-          <p>
-            Show that <m>mx'' + cx’ +kx = 0</m> when there is no external force applied to the spring/mass system with mass <m>m</m>.
-          </p>
-          <p>
             Computers perform matrix (linear) calculations VERY quickly, to the extent that we generally try to express complicated mathematics with matrices whenever possible.  We’ll convert our 2nd order differential equation <m>mx'' + cx’ +kx = 0</m> into a system of 2 first-order differential equations, by letting <m>v(t)</m> stand for velocity, which means <m>v = x’</m>.
           </p>
-        </statement>
-        <answer>
           <p>
-            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+            If our first equation in the system is <m>x’ = v</m>, solve the ODE in the problem above for <m>v'.</m>  Remember that we want a system of equations that looks like this:
           </p>
-        </answer>
-      </exercise>
-      <exercise>
-        <statement>
+          <p><md>
+            <mrow>x’ \amp = f(x, v)</mrow>
+            <mrow>v’ \amp = g(x, v)</mrow>
+          </md></p>
           <p>
-            If our first equation in the system is <m>x’ = v</m>, solve the ODE in part (e) for <m>v'</m>.  Remember that we want a system of equations that looks like this:
-          </p>
-          <p>
-            <me>x’ = f(x, v)</me>
-          </p>
-          <p>
-            <me>v’ = g(x, v)</me>
-          </p>
-          <p>
-            Where <m>f</m> and <m>g</m> are both functions of our two variables <m>x</m> and <m>v</m>.  A good first step is to divide both sides of the 2nd-order ODE by <m>m</m>.
+            Where <m>f</m> and <m>g</m> are both functions of our two variables <m>x</m> and <m>v.</m>  A good first step is to divide both sides of the 2nd-order ODE by <m>m</m>.
           </p>
         </statement>
         <answer>
           <p>
-            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
           </p>
         </answer>
       </exercise>
@@ -113,7 +92,7 @@
         </statement>
         <answer>
           <p>
-            <m>l(x)=3f(x)</m>. So, we can stretch the graph of <m>y=f(x)</m> vertically by a factor of <m>3</m> to obtain <m>y=l(x)</m>.
+            <m>k(x)=f(x)+6</m>. So, we can shift the graph of <m>y=f(x)</m> up <m>6</m> units to obtain <m>y=k(x)</m>.
           </p>
         </answer>
       </exercise>

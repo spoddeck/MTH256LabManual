@@ -7,19 +7,21 @@
       <title>Supplemental HW Problems</title>
       <introduction>
         <p>
-          Use the Sage tool in our book to solve the systems we’ve been working with this chapter.
+          Use the Sage tool in <url href="http://faculty.sfasu.edu/judsontw/ode/html-20210811/systems04.html">Section 2.4.2</url> of our book to solve the systems we’ve been working with this chapter.
         </p>
       </introduction>
       <exercise>
         <statement>
           <p>
-            For these two Romeo and Juliet problems, use a tool like Desmos to graph each of the solutions on the same set of axes.  Do the analytic solutions agree with your graphical conclusions from the previous sections?
+            For these two Romeo and Juliet problems, use a tool like <url href="https://www.desmos.com/calculator">Desmos</url> to graph each of the solutions on the same set of axes.  Do the analytic solutions agree with your graphical conclusions from the previous <xref ref="sec-2_2"/>?
           </p>
           <ol>
             <li>
               <p>Juliet is in love with being in love, and so her love changes directly, twice as much as how she’s feeling about Romeo.  However, she’s a bit scared of intimacy, so her love changes in the opposite direction as Romeo’s feelings for her.  Romeo, on the other hand, is fickle – his love changes by twice as much as his feelings for Juliet, and three times as much as her feelings for him, both in the opposite direction.  The system of equations here is:</p>
-              <p><me>J’(t) = 2J – R</me></p>
-              <p><me>R’(t) = -3J – 2R</me></p>
+              <p><md>
+                <mrow>J’(t) \amp = 2J – R</mrow>
+                <mrow>R’(t) \amp = -3J – 2R</mrow>
+              </md></p>
               <p>with the initial condition <m>J(0) = -1</m> and <m>R(0) = 1</m></p>
             </li>
             <li>
@@ -36,17 +38,17 @@
       <exercise>
         <statement>
           <p>
-            For the following six spring-mass systems, first use Sage to find the solution analytically, and then use Desmos to graph the position <m>x</m> as a function of time.  Again, does the analytical solution match up with the long-term behavior conclusions from the previous sections?
+            For the following six spring-mass systems, first use the Sage tool in <url href="http://faculty.sfasu.edu/judsontw/ode/html-20210811/systems04.html">Section 2.4.2</url> of our book to find the solution analytically, and then use <url href="https://www.desmos.com/calculator">Desmos</url> to graph the position <m>x</m> as a function of time.  Again, does the analytical solution match up with the long-term behavior conclusions from the previous <xref ref="sec-2_2"/>?
           </p>
           <p>
-            Also – do we NEED to graph/solve all of these?  Which ones can we solve just by inspection?
+            Also – do we <em>need</em> to graph/solve all of these?  Which ones can we solve just by inspection?
           </p>
           <ol>
             <li><p>Find a solution <m>x(t)</m> for a spring-mass system with <m>m = 1, c = 0</m>, and <m>k = 9</m>.  Use the initial conditions <m>x(0) = v(0) = 0</m>.</p></li>
-            <li><p>Now do the same for the system above with initial conditions <m>x(0) = 6, v(0) = 0</m>.</p></li>
-            <li><p>Now do the same for the damped system with the following conditions: <me>m = 1;  c = 2;  k = 26; x(0) = 0;  v(0) = 0</me>.</p></li>
+            <li><p>Now, do the same for the system above with initial conditions <m>x(0) = 6, v(0) = 0</m>.</p></li>
+            <li><p>Now, do the same for the damped system with the following conditions: <me>m = 1;  c = 2;  k = 26; x(0) = 0;  v(0) = 0</me>.</p></li>
             <li><p>Do the same for the damped system with the following conditions: <me>m = 1;  c = 2;  k = 26; x(0) = 6;  v(0) = 0</me>.</p></li>
-            <li><p>Now do the same for the damped system with the following conditions: <me>m = 2;  c = 10;  k = 12; x(0) = 0;  v(0) = 0</me>.</p></li>
+            <li><p>Now, do the same for the damped system with the following conditions: <me>m = 2;  c = 10;  k = 12; x(0) = 0;  v(0) = 0</me>.</p></li>
             <li><p>Finally, do the same for the damped system with the following conditions: <me>m = 2;  c = 10;  k = 12; x(0) = 0;  v(0) = 4</me>.</p></li>
           </ol>
         </statement>

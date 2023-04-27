@@ -9,7 +9,10 @@
         <knowl example="no"/>
     </html>
     <!-- PDF-Specific Options -->
-    <latex print="no" sides="one">
+    <latex print="no" sides="one" font-size="11">
     </latex>
     <!-- <epub cover="external/images/Cover_b.png"/> -->
+    <common>
+      <exercise-divisional solution="no" answer="no"/>
+    </common>
 </publication>

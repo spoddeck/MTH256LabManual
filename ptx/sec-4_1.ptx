@@ -5,11 +5,16 @@
   <exercises xml:id="exercises-4_1">
     <exercisegroup xml:id="exercisegroup-Supplemental_HW_Problems-4_1">
       <title>Supplemental HW Problems</title>
-      <!--<introduction>
+      <introduction>
         <p>
-          Consider the differential equation <me>\frac{dy}{dx} = y^2 - 4</me>.
         </p>
-      </introduction>-->
+        <p>
+          ODE = Ordinary Differential Equation;
+        </p>
+        <p>
+          IVP = Initial Value Problem
+        </p>
+      </introduction>
       <exercise>
         <statement>
           <p>

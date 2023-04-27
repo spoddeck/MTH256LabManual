@@ -7,7 +7,6 @@
     <title>Supplemental HW Problems</title>
     <!--<introduction>
       <p>
-        Consider the differential equation <me>\frac{dy}{dx} = y^2 - 4</me>.
       </p>
     </introduction>-->
     <exercise>
@@ -55,7 +54,7 @@
     <exercise>
       <statement>
         <p>
-          For the two systems in problem 1, analyze the long-term behavior, both generally and using the given initial condition.  A phase portrait might help here.
+          For the two systems in exercise 1, analyze the long-term behavior, both generally and using the given initial condition.  A phase portrait might help here.
         </p>
       </statement>
       <answer>

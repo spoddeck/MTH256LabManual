@@ -7,7 +7,6 @@
       <title>Supplemental HW Problems</title>
       <!--<introduction>
         <p>
-          Consider the differential equation <me>\frac{dy}{dx} = y^2 - 4</me>.
         </p>
       </introduction>-->
       <exercise>
@@ -30,7 +29,7 @@
       <exercise>
         <statement>
           <p>
-            What is a solution to a differential equation?  Be specific.  Also explain why a solution is not the kind of algebraic solutions we’re used to (<m>x = 3</m>, for example) and why we need some of the mechanisms from problem 1 of this question.
+            What is a solution to a differential equation?  Be specific.  Also explain why a solution is not the kind of algebraic solutions we’re used to (<m>x = 3</m>, for example) and why we need some of the mechanisms from exercise 1 of this exercise set.
           </p>
         </statement> done
         <answer>

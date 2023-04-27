@@ -5,20 +5,25 @@
   <exercises xml:id="exercises-4_2">
     <exercisegroup xml:id="exercisegroup-Supplemental_HW_Problems-4_2">
       <title>Supplemental HW Problems</title>
-      <!--<introduction>
+      <introduction>
         <p>
-          Consider the differential equation <me>\frac{dy}{dx} = y^2 - 4</me>.
         </p>
-      </introduction>-->
+        <p>
+          ODE = Ordinary Differential Equation;
+        </p>
+        <p>
+          IVP = Initial Value Problem
+        </p>
+      </introduction>
       <exercise>
         <statement>
           <p>
-            A spring-mass system has mass <m>2</m>kg, frictional constant <m>10</m>, and spring constant <m>12</m> kg/s<m>^2</m>.
+            A spring-mass system has mass <m>2</m> kg, frictional constant <m>10</m>, and spring constant <m>12</m> kg/s<m>^2</m>.
           </p>
           <ol>
             <li><p>Model this with a 2nd-order linear homogeneous ODE and solve for the position function.</p></li>
-            <li><p>The spring is stretched to a length of <m>1</m>m from rest and then released.  Describe in words what happens over time, and then solve this IVP analytically.  What is the long-run behavior of this system, from your solution?</p></li>
-            <li><p>Now we connect a motor to our system that provides a force <m>f(t) = 20 \sin(t)</m> to our system.  Describe in words what happens over time, and then solve this forcing IVP analytically.  What is the long-run behavior of this system, from your solution?</p></li>
+            <li><p>The spring is stretched to a length of <m>1</m> m from rest and then released.  Describe in words what happens over time, and then solve this IVP analytically.  What is the long-run behavior of this system, from your solution?</p></li>
+            <li><p>Now we connect a motor to our system that provides a force <m>f(t) = 20 \sin(t)</m> to our system.  Describe in words what happens over time, and then solve this forcing IVP analytically.  What is the long-run behavior of this system from your solution?</p></li>
           </ol>
         </statement>
         <answer>
@@ -30,11 +35,11 @@
       <exercise>
         <statement>
           <p>
-            A spring-mass system has mass 1kg, no frictional forces, and a spring constant <m>k = 9</m> kg/s<m>^2</m>.
+            A spring-mass system has mass 1 kg, no frictional forces, and a spring constant <m>k = 9</m> kg/s<m>^2</m>.
           </p>
           <ol>
             <li><p>Model this with a 2nd-order linear homogeneous ODE and solve for the position function.</p></li>
-            <li><p>The spring is stretched to a length of <m>1</m>m from rest and then released.  Describe in words what happens over time, and then solve this IVP analytically.  What is the long-run behavior of this system, from your solution?</p></li>
+            <li><p>The spring is stretched to a length of <m>1</m> m from rest and then released.  Describe in words what happens over time, and then solve this IVP analytically.  What is the long-run behavior of this system, from your solution?</p></li>
             <li><p>The laboratory in which we are analyzing this spring-mass system is on a research boat, and the motion of the waves provides a force <m>f(t) = \sin(t)</m> to our system.  Describe in words what happens over time, and then solve this forcing IVP analytically.  What is the long-run behavior of this system, from your solution?</p></li>
             <li><p>The next day the motion of the waves provides a force <m>f(t) = \cos(3t)</m> to our system.  Describe in words what happens over time, and then solve this forcing IVP analytically, if possible.  What is the long-run behavior of this system?  (We will look more closely at situations like this in the <xref ref="sec-4_4"/> on <em>resonance</em>.)</p></li>
           </ol>

@@ -4,21 +4,7 @@
   <title>The Laplace Transform</title>
   <!-- <introduction>
     <p>
-      The foundation of <q>the calculus</q>
-      is the <term>limit</term>.
-      It is a tool to describe a particular behavior of a function.
-      This chapter begins our study of the limit by approximating its value graphically and numerically.
-      After a formal definition of the limit,
-      properties are established that make
-      <q>finding limits</q> tractable.
-      Once the limit is understood,
-      then the problems of area and rates of change can be approached.
     </p>
-    <figure xml:id="vid_limit_intro_calc_overview">
-      <caption>Overview of Calculus</caption>
-      <video youtube="37n0cZn6Lyc"/>
-    </figure>
-
   </introduction> -->
 
   <xi:include href="sec-6_1.ptx"/>

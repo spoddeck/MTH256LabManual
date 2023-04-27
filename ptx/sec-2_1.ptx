@@ -5,11 +5,16 @@
   <exercises xml:id="exercises-2_1">
     <exercisegroup xml:id="exercisegroup-Supplemental_HW_Problems-2_1">
       <title>Supplemental HW Problems</title>
-      <!-- <introduction>
+      <introduction>
         <p>
-
         </p>
-      </introduction> -->
+        <p>
+          ODE = Ordinary Differential Equation;
+        </p>
+        <p>
+          IVP = Initial Value Problem
+        </p>
+      </introduction>
       <exercise>
         <statement>
           <p>
@@ -33,7 +38,7 @@
           </p>
           <ol>
             <li><p>Write the frictional force that models this.  Use <m>c</m> as the frictional constant (combining all the frictional forces).</p></li>
-            <li><p>Add this force to the ODE you found in problem 1 above.</p></li>
+            <li><p>Add this force to the ODE you found in exercise 1 above.</p></li>
           </ol>
         </statement>
         <answer>

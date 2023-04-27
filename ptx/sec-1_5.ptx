@@ -7,7 +7,7 @@
       <title>Supplemental HW Problems</title>
       <introduction>
         <p>
-          Note: These are the same basic problems as the ones for <xref ref="sec-1_4"/>.  There, we used numerical approximation techniques; here, we will solve them exactly. Once you find the solutions, compare them with the answers you got from the last section!
+          Note: These are the same basic exercises as the ones for <xref ref="sec-1_4"/>.  There, we used numerical approximation techniques; here, we will solve them exactly. Once you find the solutions, compare them with the answers you got from the last section!
         </p>
       </introduction>
       <exercise>
@@ -54,7 +54,7 @@
       <title>Additional Supplemental HW Problems</title>
       <introduction>
         <p>
-          Note: These are additional problems. Again, we will solve exactly. Once you find the solution, compare with the answers you get with Sage.
+          Note: These are additional exercises. Again, we will solve exactly. Once you find the solution, compare with the answers you get with Sage.
         </p>
       </introduction>
       <exercise>
